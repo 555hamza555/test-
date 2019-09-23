@@ -3,9 +3,10 @@ p {
 	font-size: 20px;
 	text-align: center;
 }
-H1{ color: white;
+h1 { 
+	color: white;
+	font-size: 70px;
 	text-align: center;
-
 }
 body{
 background-image: url("images/randon_plane.jpg");
