@@ -1,3 +1,18 @@
+function encrypt(){
+  let plaintext = prompt('Type plaintext here');
+  let ciphertext = '';
+  ciphertext = plaintext.replace('b','nxk').replace('e','hhk').replace('a','ddk').replace('t','bbk');
+  document.getElementById("ciphertext").innerHTML = ciphertext;
+}
+
+
+function decrypt(){
+  let plaintext = prompt('Type encrypted text here')
+  let ciphertext = '';
+  ciphertext = plaintext.replace('nxk','b').replace('hhk','e').replace('ddk','a').replace('bbk','t');
+  document.getElementById("ciphertext").innerHTML = ciphertext;
+}
+
 function third_angle(){
 	let angle_one = parseInt(prompt("What is the first angle?")); 
 	let angle_two = parseInt(prompt("What is the secound angle?"));
@@ -27,4 +42,3 @@ function four_ten(){
 		}
 	}
 }
-
