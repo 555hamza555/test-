@@ -1,7 +1,7 @@
 function encrypt(){
   let plaintext = prompt('Type plaintext here');
   let ciphertext = '';
-  ciphertext = plaintext.replace('b','nxk').replace('e','hhk').replace('a','ddk').replace('t','bbk');
+  ciphertext = plaintext.replace('j','b').replace('a','e').replace('c','h').replace('g','t').replace('e','r').replace('r','c').replace('h','j');
   document.getElementById("ciphertext").innerHTML = ciphertext;
 }
 
@@ -9,7 +9,7 @@ function encrypt(){
 function decrypt(){
   let plaintext = prompt('Type encrypted text here')
   let ciphertext = '';
-  ciphertext = plaintext.replace('nxk','b').replace('hhk','e').replace('ddk','a').replace('bbk','t');
+  ciphertext = plaintext.replace('b','j').replace('e','a').replace('h','c').replace('t','g').replace('r','e').replace('c','r').replace('j','h');
   document.getElementById("ciphertext").innerHTML = ciphertext;
 }
 
