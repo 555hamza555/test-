@@ -1,7 +1,7 @@
 function encrypt(){
   let plaintext = prompt('Type plaintext here');
   let ciphertext = '';
-  ciphertext = plaintext.replace(/b/g,'Q1').replace(/a/g,'Q2').replace(/c/g,'Q3').replace(/e/g,'Q4').replace(/h/g,'Q5').replace(/g/g,'Q6').replace(/d/g,'Q7').replace(/y/g,'Q8').replace(/k/g,'Q9').replace(/m/g,'Z1').replace(/i/g,'Z2');
+  ciphertext = plaintext.replace(/b/g,'Q1').replace(/a/g,'Q2').replace(/c/g,'Q3').replace(/e/g,'Q4').replace(/h/g,'Q5').replace(/g/g,'Q6').replace(/d/g,'Q7').replace(/y/g,'Q8').replace(/k/g,'Q9').replace(/m/g,'Z1').replace(/i/g,'Z2').replace(/n/g,'Z3').replace(/u/g,'Z4');
   document.getElementById("ciphertext").innerHTML = ciphertext;
 }
 
@@ -9,7 +9,7 @@ function encrypt(){
 function decrypt(){
   let plaintext = prompt('Type encrypted text here')
   let ciphertext = '';
-  ciphertext = plaintext.replace(/Q1/g,'b').replace(/Q2/g,'a').replace(/Q3/g,'c').replace(/Q4/g,'e').replace(/Q5/g,'h').replace(/Q6/g,'g').replace(/Q7/g,'d').replace(/Q8/g,'y').replace(/Q9/g,'k').replace(/Z1/g,'m').replace(/Z2/g,'i');
+  ciphertext = plaintext.replace(/Q1/g,'b').replace(/Q2/g,'a').replace(/Q3/g,'c').replace(/Q4/g,'e').replace(/Q5/g,'h').replace(/Q6/g,'g').replace(/Q7/g,'d').replace(/Q8/g,'y').replace(/Q9/g,'k').replace(/Z1/g,'m').replace(/Z2/g,'i').replace(/Z3/g,'n').replace(/Z4/g,'u');
   document.getElementById("ciphertext").innerHTML = ciphertext;
 }
 
